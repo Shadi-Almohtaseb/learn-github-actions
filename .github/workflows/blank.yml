@@ -45,4 +45,4 @@ jobs:
           pwd
           ls
       - name: linux info
-        run: cat
+        run: cat /etc/lsb-release
